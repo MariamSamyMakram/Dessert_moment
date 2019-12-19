@@ -1,6 +1,5 @@
 $(document).ready(function(){
     $('.slickSlider').slick({
-        // dots: true,
         infinite: true,
         speed: 500,
         fade: true,
@@ -8,19 +7,17 @@ $(document).ready(function(){
         arrows:false,
         autoplay:true,
         autoplaySpeed:1000,
-
-        centerMode: true,
-        centerPadding: '5%',
-        slidesToShow: 1,
-
+        
     });
+    $('.choca').on('click',function(){
+        $(".slickSlider").slick('slickNext');
+    });
+
     $('.birthdaySlider').slick({
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 3,
         arrows:true,
-        // autoplay:true,
-        // autoplaySpeed:3000,
         prevArrow: $('.prev'),
         nextArrow: $('.next'),
     });
@@ -29,8 +26,6 @@ $(document).ready(function(){
         slidesToShow: 3,
         slidesToScroll: 3,
         arrows:true,
-        // autoplay:true,
-        // autoplaySpeed:3000,
         prevArrow: $('.prev'),
         nextArrow: $('.next'),
     });
