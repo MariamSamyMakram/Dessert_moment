@@ -1,0 +1,11 @@
+/* start footer */
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 100px 0;
+}
+.footer h2{font-weight: bold;}
+.footer p{color: #848484;}
+.footer ul{list-style: none;padding-left: 0;}
+.footer ul li a{    color: #848484;}
+.footer a{    color: #848484;}

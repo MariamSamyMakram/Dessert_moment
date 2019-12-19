@@ -1,0 +1,15 @@
+.video {
+    background-image: url('../images/img1.jpg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.video video{
+    width: 100%;
+}
+.video a{
+    color: #fff;
+    text-decoration: none;
+}
+.video h1{font-weight: bolder;}

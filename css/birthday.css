@@ -1,0 +1,55 @@
+.birthday{padding-bottom: 100px; padding-top: 50px;}
+.birthday h1{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.birthday a{
+    color: #000;
+    text-decoration: none;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.birthday .birthdaySlider .imagebirth{ width: 100%; height: 350px;}
+.birthday .birthdaySlider h2{font-weight: bolder;}
+.birthday ul{    display: inline-flex;}
+.birthday .next,
+.birthday .prev{
+    font-size: 35px;
+    padding: 10px;
+}
+
+@media (max-width: 575.98px){
+    .birthday .birthdaySlider .imagebirth {height: 150px;}
+    .birthday h1 {font-size: 25px;}
+    .birthday p{    font-size: 9px;    }
+    .birthday {padding-bottom: 48px;}
+    .birthday .next, .birthday .prev {font-size: 20px;}
+    .birthday .birthdaySlider h2{font-size: 12px;}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .birthday .birthdaySlider .imagebirth {height: 150px;}
+    .birthday h1 {font-size: 25px;}
+    .birthday p{    font-size: 9px;    }
+    .birthday {padding-bottom: 48px;}
+    .birthday .next, .birthday .prev {font-size: 20px;}
+    .birthday .birthdaySlider h2{font-size: 12px;}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .birthday .birthdaySlider .imagebirth {height: 150px;    margin-bottom: 13px;    }
+    .birthday h1 {font-size: 25px;}
+    .birthday p{    font-size: 9px;    }
+    .birthday {padding-bottom: 48px;}
+    /* .birthday .next, .birthday .prev {font-size: 20px;} */
+    .birthday .birthdaySlider h2{font-size: 17px;}
+
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   
+}
