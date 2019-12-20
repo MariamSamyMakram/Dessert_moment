@@ -18,8 +18,8 @@ $(document).ready(function(){
         slidesToShow: 3,
         slidesToScroll: 3,
         arrows:true,
-        prevArrow: $('.prev'),
-        nextArrow: $('.next'),
+        prevArrow: $('.birthPrev'),
+        nextArrow: $('.birthNext'),
     });
     $('.recipesSlider').slick({
         infinite: true,

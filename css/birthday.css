@@ -12,12 +12,12 @@
 .birthday .birthdaySlider .imagebirth{ width: 100%; height: 350px;}
 .birthday .birthdaySlider h2{font-weight: bolder;}
 .birthday ul{    display: inline-flex;}
-.birthday .next,
-.birthday .prev{
+.birthday .birthNext,
+.birthday .birthPrev{
     font-size: 35px;
     padding: 10px;
 }
-/* .item{position: relative;}
+.item{position: relative;}
 .birthdaySlider .overlay {
     position: absolute;
     top: 0;
@@ -39,9 +39,9 @@
 .birthdaySlider .item a{
     color: #fff;
     position: relative;
-    top: 81px;
+    top: 50%;
     text-decoration: none;
-} */
+}
 
 @media (max-width: 575.98px){
     .birthday .birthdaySlider .imagebirth {height: 150px;}
