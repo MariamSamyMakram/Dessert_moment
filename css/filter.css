@@ -3,4 +3,32 @@
 .filter .part1 h1{font-weight: bold;}
 .filter .part2 img{    width: 100%;}
 .filter .part2 h3{font-weight: bolder;}
+.filter .part2 h3 a{
+    color: #000;
+    text-decoration: none;
+}
+.item{position: relative;}
+.filter .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.75);
+    color: #fff;
+  }
 
+.item:hover .overlay {
+    opacity: 1;
+  } 
+
+.filter .item a{
+    color: #fff;
+    position: relative;
+    top: 81px;
+    text-decoration: none;
+}
