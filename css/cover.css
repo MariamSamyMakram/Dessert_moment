@@ -37,10 +37,11 @@ nav .logo{width: 175px;    object-fit: cover;}
     color: #000;
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu {border: 0;}
-nav form input{
+nav form{
     position: relative;
     right: 150px;
 }
+/* nav form .form-inline .form-control{width: 100%;} */
 /* end navbar */
 
 /* start slider */
@@ -154,7 +155,7 @@ nav form input{
          margin-left: 0;
          text-align: center;}
      .navbar-expand-lg .navbar-nav li .search{margin-left: 0;}
-     nav form input{
+     nav form{
         position: relative;
         right: 90px;
     }
