@@ -20,6 +20,22 @@ $(document).ready(function(){
         arrows:true,
         prevArrow: $('.birthPrev'),
         nextArrow: $('.birthNext'),
+        responsive: [
+            {
+                breakpoint: 980, // tablet breakpoint
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll:2
+                }
+            },
+            {
+                breakpoint: 480, // mobile breakpoint
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            }
+        ]
     });
     $('.recipesSlider').slick({
         infinite: true,
@@ -28,6 +44,22 @@ $(document).ready(function(){
         arrows:true,
         prevArrow: $('.prev'),
         nextArrow: $('.next'),
+        responsive: [
+            {
+                breakpoint: 980, // tablet breakpoint
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll:2
+                }
+            },
+            {
+                breakpoint: 480, // mobile breakpoint
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            }
+        ]
     });
     $('.clientSlider').slick({
         infinite: true,
@@ -35,5 +67,23 @@ $(document).ready(function(){
         slidesToScroll: 4,
         arrows:false,
         autoplay:true,
+
+        responsive: [
+            {
+                breakpoint: 980, // tablet breakpoint
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll:2
+                }
+            },
+            {
+                breakpoint: 480, // mobile breakpoint
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            }
+        ]
+
     });
 });
