@@ -16,7 +16,7 @@ nav{
     padding: 0 17px;
 }
 nav .navbar-brand{width: 200px;}
-nav .logo{width: 175px;}
+nav .logo{width: 175px;    object-fit: cover;}
 .navbar-expand-lg .navbar-nav
 {    
     font-size: 11px;

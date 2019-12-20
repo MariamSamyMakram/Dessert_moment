@@ -9,7 +9,11 @@
     padding-top: 10px;
     font-weight: bold;
 }
-.recipes .recipesSlider .imagebirth{ width: 100%; height: 350px;}
+.recipes .recipesSlider .imagebirth{ 
+    width: 100%; 
+    height: 350px;
+    object-fit: contain;
+}
 .recipes .recipesSlider h2{font-weight: bolder;}
 .recipes ul{    display: inline-flex;}
 .recipes .next,
