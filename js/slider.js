@@ -31,8 +31,8 @@ $(document).ready(function(){
             {
                 breakpoint: 480, // mobile breakpoint
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToShow: 1,
+                    slidesToScroll: 1
                 }
             }
         ]
@@ -53,10 +53,10 @@ $(document).ready(function(){
                 }
             },
             {
-                breakpoint: 480, // mobile breakpoint
+                breakpoint: 650, // mobile breakpoint
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToShow: 1,
+                    slidesToScroll: 1
                 }
             }
         ]
@@ -77,7 +77,7 @@ $(document).ready(function(){
                 }
             },
             {
-                breakpoint: 480, // mobile breakpoint
+                breakpoint: 650, // mobile breakpoint
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2
