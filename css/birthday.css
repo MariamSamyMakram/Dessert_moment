@@ -21,7 +21,7 @@
     font-size: 35px;
     padding: 10px;
 }
-.item{position: relative;}
+.item{position: relative;    margin-bottom: 21px;}
 .birthdaySlider .overlay {
     position: absolute;
     top: 0;

@@ -14,6 +14,7 @@
     text-decoration: none;
 }
 .video h1{font-weight: bolder;}
+.video .video_item p{ margin-top: 15px;}
 
 @media (max-width: 575.98px){
     .video_item{
