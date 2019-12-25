@@ -20,6 +20,7 @@
 .birthday .birthPrev{
     font-size: 35px;
     padding: 10px;
+    cursor: pointer;
 }
 .item{position: relative;    margin-bottom: 21px;}
 .birthdaySlider .overlay {

@@ -20,6 +20,7 @@
 .recipes .prev{
     font-size: 35px;
     padding: 10px;
+    cursor: pointer
 }
 .recipes .overlay {
     position: absolute;
